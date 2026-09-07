@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="100%" height="100%" fill="none">
+  <defs>
+    <filter id="bannerShadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.8"/>
+    </filter>
+    <linearGradient id="redPulseGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#b8000b"/>
+      <stop offset="50%" stop-color="#ff1a26"/>
+      <stop offset="100%" stop-color="#b8000b"/>
+    </linearGradient>
+    <linearGradient id="brotherhoodRed" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ff2a36"/>
+      <stop offset="40%" stop-color="#dd0414"/>
+      <stop offset="100%" stop-color="#91000b"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Left Audio Waveform Pulse -->
+  <g transform="translate(10, 150)">
+    <path d="M 0 0 L 45 0 L 60 -18 L 75 22 L 95 -68 L 115 62 L 132 -32 L 148 24 L 165 -12 L 180 0 L 220 0" 
+          stroke="url(#redPulseGrad)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+
+  <!-- Left Floating Red Music Note -->
+  <g transform="translate(135, 75) rotate(-8)">
+    <ellipse cx="14" cy="28" rx="10" ry="7.5" fill="url(#brotherhoodRed)" stroke="#000000" stroke-width="3" transform="rotate(-20 14 28)"/>
+    <ellipse cx="44" cy="22" rx="10" ry="7.5" fill="url(#brotherhoodRed)" stroke="#000000" stroke-width="3" transform="rotate(-20 44 22)"/>
+    <rect x="22" y="2" width="5" height="28" fill="#000000"/>
+    <rect x="52" y="-4" width="5" height="28" fill="#000000"/>
+    <polygon points="22,2 57,-4 57,6 22,12" fill="url(#brotherhoodRed)" stroke="#000000" stroke-width="2.5"/>
+  </g>
+
+  <!-- Left Speaker / Equalizer Wedge -->
+  <g transform="translate(195, 118)">
+    <rect x="0" y="24" width="10" height="36" rx="2" fill="url(#brotherhoodRed)" stroke="#000000" stroke-width="3"/>
+    <rect x="14" y="14" width="10" height="56" rx="2" fill="url(#brotherhoodRed)" stroke="#000000" stroke-width="3"/>
+    <rect x="28" y="4" width="10" height="76" rx="2" fill="url(#brotherhoodRed)" stroke="#000000" stroke-width="3"/>
+  </g>
+
+  <!-- Center Wordmark -->
+  <g transform="translate(245, 192)" filter="url(#bannerShadow)">
+    <!-- "indie" in bold white -->
+    <text x="0" y="0" font-family="'Impact', 'Arial Black', -apple-system, sans-serif" font-weight="900" font-size="115" 
+          letter-spacing="-2" fill="#ffffff" stroke="#000000" stroke-width="14" stroke-linejoin="round" paint-order="stroke fill">indie</text>
+    
+    <!-- "brotherhood" in rich textured red -->
+    <text x="245" y="0" font-family="'Impact', 'Arial Black', -apple-system, sans-serif" font-weight="900" font-size="115" 
+          letter-spacing="-2" fill="url(#brotherhoodRed)" stroke="#000000" stroke-width="14" stroke-linejoin="round" paint-order="stroke fill">brotherhood</text>
+  </g>
+
+  <!-- Right Speaker / Equalizer Wedge -->
+  <g transform="translate(945, 118)">
+    <rect x="0" y="4" width="10" height="76" rx="2" fill="url(#brotherhoodRed)" stroke="#000000" stroke-width="3"/>
+    <rect x="14" y="14" width="10" height="56" rx="2" fill="url(#brotherhoodRed)" stroke="#000000" stroke-width="3"/>
+    <rect x="28" y="24" width="10" height="36" rx="2" fill="url(#brotherhoodRed)" stroke="#000000" stroke-width="3"/>
+  </g>
+
+  <!-- Right Floating Red Music Note -->
+  <g transform="translate(995, 75) rotate(8)">
+    <ellipse cx="14" cy="28" rx="10" ry="7.5" fill="url(#brotherhoodRed)" stroke="#000000" stroke-width="3" transform="rotate(-20 14 28)"/>
+    <ellipse cx="44" cy="22" rx="10" ry="7.5" fill="url(#brotherhoodRed)" stroke="#000000" stroke-width="3" transform="rotate(-20 44 22)"/>
+    <rect x="22" y="2" width="5" height="28" fill="#000000"/>
+    <rect x="52" y="-4" width="5" height="28" fill="#000000"/>
+    <polygon points="22,2 57,-4 57,6 22,12" fill="url(#brotherhoodRed)" stroke="#000000" stroke-width="2.5"/>
+  </g>
+
+  <!-- Right Audio Waveform Pulse -->
+  <g transform="translate(990, 150)">
+    <path d="M 0 0 L 35 0 L 52 -12 L 68 24 L 85 -32 L 102 62 L 122 -68 L 142 22 L 158 -18 L 175 0 L 210 0" 
+          stroke="url(#redPulseGrad)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+</svg>

@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%" fill="none">
+  <defs>
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+    <linearGradient id="redGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ff1a26"/>
+      <stop offset="100%" stop-color="#b8000b"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Left Equalizer Bars -->
+  <g transform="translate(32, 252)">
+    <rect x="0" y="24" width="14" height="24" rx="2" fill="#ffffff" stroke="#000000" stroke-width="3"/>
+    <rect x="18" y="12" width="14" height="36" rx="2" fill="#ffffff" stroke="#000000" stroke-width="3"/>
+    <rect x="36" y="-6" width="16" height="54" rx="2" fill="url(#redGrad)" stroke="#000000" stroke-width="3"/>
+  </g>
+
+  <!-- Floating Red Music Note above 'i' -->
+  <g transform="translate(108, 102) rotate(-6)">
+    <ellipse cx="14" cy="28" rx="8" ry="6" fill="url(#redGrad)" stroke="#000000" stroke-width="3" transform="rotate(-20 14 28)"/>
+    <ellipse cx="38" cy="24" rx="8" ry="6" fill="url(#redGrad)" stroke="#000000" stroke-width="3" transform="rotate(-20 38 24)"/>
+    <rect x="20" y="2" width="4" height="26" fill="#000000"/>
+    <rect x="44" y="-2" width="4" height="26" fill="#000000"/>
+    <polygon points="20,2 48,-2 48,6 20,10" fill="url(#redGrad)" stroke="#000000" stroke-width="2"/>
+  </g>
+
+  <!-- Right Red Sound Wave Pulse -->
+  <g transform="translate(398, 170)">
+    <path d="M 0 35 L 14 35 L 20 12 L 26 58 L 34 2 L 42 66 L 48 24 L 54 44 L 62 35 L 72 35" 
+          stroke="url(#redGrad)" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+
+  <!-- Small Black Music Note on right -->
+  <g transform="translate(426, 276)">
+    <ellipse cx="12" cy="22" rx="7" ry="5.5" fill="#000000" transform="rotate(-25 12 22)"/>
+    <rect x="17" y="4" width="3.5" height="18" fill="#000000"/>
+    <path d="M 19 4 Q 28 6 26 14" stroke="#000000" stroke-width="3" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- Main 'ibh' letters -->
+  <!-- 'i' -->
+  <g>
+    <!-- Dot of 'i' -->
+    <circle cx="118" cy="180" r="26" fill="#ffffff" stroke="#000000" stroke-width="9"/>
+    <!-- Stem of 'i' -->
+    <rect x="92" y="222" width="52" height="114" rx="4" fill="#ffffff" stroke="#000000" stroke-width="9"/>
+  </g>
+
+  <!-- 'b' -->
+  <g>
+    <!-- Tall vertical stem -->
+    <rect x="156" y="148" width="52" height="188" rx="4" fill="#ffffff" stroke="#000000" stroke-width="9"/>
+    <!-- Round bowl of 'b' -->
+    <path d="M 194 220 C 235 220 270 240 270 280 C 270 320 235 340 194 340 Z" fill="#ffffff" stroke="#000000" stroke-width="9"/>
+    <circle cx="218" cy="280" r="24" fill="#0a0a0a" stroke="#000000" stroke-width="8"/>
+    <!-- Overlap mask fix for inner white -->
+    <circle cx="218" cy="280" r="21" fill="#ffffff"/>
+  </g>
+
+  <!-- 'h' -->
+  <g>
+    <!-- Tall left stem -->
+    <rect x="282" y="148" width="52" height="188" rx="4" fill="#ffffff" stroke="#000000" stroke-width="9"/>
+    <!-- Arch and right leg of 'h' -->
+    <path d="M 324 235 C 345 210 408 206 414 260 L 414 336 L 362 336 L 362 268 C 362 254 340 252 324 260 Z" 
+          fill="#ffffff" stroke="#000000" stroke-width="9"/>
+  </g>
+
+  <!-- Subtitle Text: indiebrotherhood -->
+  <g transform="translate(80, 396)">
+    <!-- "indie" in white with black stroke -->
+    <text x="0" y="0" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="44" 
+          letter-spacing="-1.5" fill="#ffffff" stroke="#000000" stroke-width="6" paint-order="stroke fill">indie</text>
+    <!-- "brotherhood" in vivid red with black stroke -->
+    <text x="96" y="0" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="44" 
+          letter-spacing="-1.5" fill="url(#redGrad)" stroke="#000000" stroke-width="6" paint-order="stroke fill">brotherhood</text>
+  </g>
+</svg>

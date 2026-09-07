@@ -1,0 +1,7 @@
+{
+  "name": "Studio DAW & Stem Splitter",
+  "description": "Indie Brotherhood multi-track DAW with vocal and instrument stem splitting, interactive live mixing, vocal presets & custom FX chains, mastering suite, microphone recording, project version saves, and metadata-tagged WAV/MP3 export.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
